@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #ccc;
+    font-family: sans-serif;
+    color: black;
+}
+header{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Notable', sans-serif;
+    font-size: 1.3em;
+}
+.text{
+    margin: 4vh 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+span{
+    color: red;
+}
+.wrapper{
+    margin: 8vh 10vw;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 60vmin;
+    width: 60vmin;
+    border: 3px solid #232323;
+    border-radius: 5px;
+}
+.box{
+    margin: 8px;
+    position: relative;
+    width: calc(33.3% - 16px);
+    height: calc(33.3% - 16px);
+    border: 3px solid #232323;
+    border-radius: 5px;
+}
+.mole{
+    background-image: url("mole.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
