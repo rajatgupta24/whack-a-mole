@@ -45,7 +45,7 @@ span{
     border-radius: 5px;
 }
 .mole{
-    background-image: url("mole.jpg");
+    background-image: url("./assets/mole.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
