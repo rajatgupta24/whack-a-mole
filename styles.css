@@ -12,10 +12,10 @@ header{
     text-align: center;
     text-decoration: underline;
     font-family: 'Notable', sans-serif;
-    font-size: 1.3em;
+    font-size: 3vmin;
 }
 .text{
-    margin: 4vh 0;
+    margin: 5vh 0;
     display: flex;
     justify-content: space-around;
     padding: 0 20px;
@@ -45,7 +45,7 @@ span{
     border-radius: 5px;
 }
 .mole{
-    background-image: url("./assets/mole.jpg");
+    background-image: url("mole.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }

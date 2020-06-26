@@ -30,6 +30,9 @@ function check () {
 function timer () {
     if (currentTime <= 0){
         clearInterval(interval);
+        for (let i = 0;i < boxes.length; i++){
+            boxes[i].classList.remove("mole");
+        }
         return;
     }
     currentTime--;
