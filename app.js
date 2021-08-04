@@ -1,4 +1,13 @@
+const container = document.querySelector(".container");
+
+for (let i=0;i<9;i++){
+    const box = document.createElement("div");
+    box.classList.add("box");
+    container.appendChild(box);
+}
+
 let boxes = document.querySelectorAll(".box");
+
 const score = document.querySelector(".score");
 const time = document.querySelector(".time");
 
